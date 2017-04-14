@@ -28,6 +28,7 @@ GITIGNOREFILES =                                                               \
 	gtk-doc.make                                                           \
 	INSTALL                                                                \
 	ABOUT-NLS                                                              \
+	Makecache                                                              \
 	$(NULL)
 
 AUTHORS:
