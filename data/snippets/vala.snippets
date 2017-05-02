@@ -18,3 +18,25 @@ snippet async
 	${1:func}.begin (${2:args, }(obj, res) => {
 		${3:var result = }$1.end (res);$0
 	});
+snippet function
+- scope vala
+- desc Create a Function
+	{$1:public} {$2:void} {$3:func_name} ({$4:string[] args}) {
+		{$5:// TODO: Write code.}
+	}
+snippet main
+- scope vala
+- desc Create a main function
+	int main (string[] args) {
+		{$1}
+		
+		return 0;
+	}
+snippet doc
+- scope vala
+- desc Create a documentation multiline comment with predefined fields.
+	/*
+	 * {$1:Explain what this comment is for}
+	 *
+	 * @param {{$2:bool}} {$3:foo} - {$4:A foo boolean}
+	 */
